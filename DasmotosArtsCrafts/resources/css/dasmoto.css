@@ -1,0 +1,38 @@
+h1, h2, h3, p {
+  font-family: Helvetica;
+  /* instructions doesn't say if <P>-text is also Helvetica
+  but I assume so */
+}
+h1 {
+/*  font-family: Helvetica; moved to top*/
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  /* If using local file: background-image: url(../img/pattern.jpeg); */
+/* background-image remot file:  url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg"); */
+}
+h2 {
+  /* font-family: Helvetica; moved to top*/
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.products {
+  /* no separate styling for products-class */ 
+}
+#brushes {
+  background-color: mediumspringgreen;
+}
+#frames {
+  background-color: lightcoral;
+}
+#paint {
+  background-color: skyblue;
+}
+.styleprice {
+  /* font-family: Helvetica; inherited from <p> */
+  font-weight: bold;
+  color:blue;
+}
